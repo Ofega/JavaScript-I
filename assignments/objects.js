@@ -18,35 +18,35 @@ const example = {
 }
 
 // Write your intern objects here:
-const firstIntern = {
+const mitzi = {
   id: 1,
   name: "Mitzi",
   email: "mmelloy0@psu.edu",
   gender: "F",
 }
 
-const secondIntern = {
+const kennan = {
   id: 2,
   name: "Kennan",
   email: "kdiben1@tinypic.com",
   gender: "M",
 }
 
-const thirdIntern = {
+const keven = {
   id: 3,
   name: "Keven",
   email: "kmummery2@wikimedia.org",
   gender: "M",
 }
 
-const fourthIntern = {
+const gannie = {
   id: 4,
   name: "Gannie",
   email: "gmartinson3@illinois.edu",
   gender: "M",
 }
 
-const fifthIntern = {
+const antonietta = {
   id: 5,
   name: "Antonietta",
   email: "adaine5@samsung.com",
@@ -58,22 +58,23 @@ const fifthIntern = {
 // Once your objects are created, log out the following requests from HR into the console:
 
 // Mitzi's name
-console.log(firstIntern.name);
+console.log(mitzi.name);
 
 // Kennan's ID
-console.log(secondIntern.id);
+console.log(kennan.id);
 
 // Keven's email
-console.log(thirdIntern.email);
+console.log(keven.email);
 
 // Gannie's name
-console.log(fourthIntern.name);
+console.log(gannie.name);
 
 // Antonietta's Gender
-console.log(fifthIntern.gender);
+console.log(antonietta.gender);
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
+
 // console.log(kennan.speak());
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
